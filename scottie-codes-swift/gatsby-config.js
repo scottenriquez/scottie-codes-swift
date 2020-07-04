@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/swift`,
   siteMetadata: {
     title: `Scottie Codes Swift`,
     author: {
