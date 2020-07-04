@@ -50,7 +50,8 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "npm run clean && gatsby build --prefix-paths && npm run move",
+    "move": "cd public && mkdir swift | mv * swift",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
