@@ -1,9 +1,3 @@
 [build]
   Command = "npm run build"
   Publish = "public"
-
-[[redirects]]
-  from = "/"
-  to = "/swift"
-  status = 303
-  force = true

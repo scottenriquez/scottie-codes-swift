@@ -1,7 +1,7 @@
 import Typography from "typography"
-import sutro from "typography-theme-sutro"
+import githubTheme from "typography-theme-github"
 
-sutro.overrideThemeStyles = () => {
+githubTheme.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
@@ -9,7 +9,7 @@ sutro.overrideThemeStyles = () => {
   }
 }
 
-const typography = new Typography(sutro)
+const typography = new Typography(githubTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

@@ -4,7 +4,7 @@ module.exports = {
     title: `Scottie Codes Swift`,
     author: {
       name: `Scottie Enriquez`,
-      summary: `is a Houston-based cloud solution architect and aspiring iOS engineer.`,
+      summary: `is a Houston-based cloud solution architect, software developer, volunteer high school teaching assistant, and aspiring iOS engineer.`,
     },
     description: `A blog about Scottie learning Swift.`,
     siteUrl: `https://scottie.codes/swift/`,
@@ -64,7 +64,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/scott-s.svg`,
       },
     },
     `gatsby-plugin-react-helmet`,
