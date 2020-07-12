@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author.name}</strong> {author.summary}
+          <strong><a href="https://scottie.is">{author.name}</a></strong> {author.summary}
       </p>
     </div>
   )
